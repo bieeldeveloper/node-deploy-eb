@@ -13,9 +13,9 @@ after_deploy:
 
 deploy:
   provider: elasticbeanstalk
-  access_key_id: "AKIAJKSVQNLO4AT767KQ"
+  access_key_id: $ACCESSID
   secret_access_key:
-    secure: "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"
+    secure: $ACCESSSECRET
   region: "ca-central-1"  
   app: "elastic-beanstalk-tutorial"
   env: "elastic-beanstalk-tutorial-dev"
