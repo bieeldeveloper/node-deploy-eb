@@ -1,2 +1,2 @@
 # node-deploy-eb
-Aplicação Node.js, deploy em container no AWS Elastic Beanstalk
+Aplicação em Node.js, executando build no TravisCI e finalizando deploy em container (docker) no AWS Elastic Beanstalk
