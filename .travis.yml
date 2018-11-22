@@ -16,9 +16,9 @@ deploy:
   access_key_id: $ACCESSID
   secret_access_key:
     secure: $ACCESSSECRET
-  region: "ca-central-1"  
-  app: "elastic-beanstalk-tutorial"
-  env: "elastic-beanstalk-tutorial-dev"
+  region: "us-east-1"  
+  app: "node-project"
+  env: "NodeProject-env"
   bucket_name: "deploy-gabriel"
   on:
     branch: master
